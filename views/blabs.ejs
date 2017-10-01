@@ -1,24 +1,15 @@
-<div>
-  <div>
+<div class="container-fluid">
+  <div class="blah-blah"></div>
+  <div class="blabber-bg">
     <form id="create-blab">
-      <input id="blab-upvote" name="upvotes" type="hidden" value="1">
-      <label for="blab-content">Hey, wanna write something stupid?</label>
-      <textarea name="text" id="blab-content" rows="3" placeholder="Stupid goes here..."></textarea>
-      <label for="blabber-email">Identify thyself</label>
-      <input id="blabber-email" name="email" type="email" required placeholder="Enter your e-mail" autocomplete="on">
-      <input type="submit" value="Blab it!"></input>
+      <label class="blab-content-label" for="blab-content">Hey, wanna write something stupid?</label>
+      <textarea class="blab-content-input" name="content" id="blab-content" rows="3" placeholder="Stupid goes here..."></textarea>
+      <label class="blab-email-label" for="blabber-email">Identify thyself</label>
+      <input class="blab-email-input" id="blabber-email" name="email" type="email" required placeholder="Enter your e-mail" autocomplete="on">
+      <input id="create-blab" class="blab-send-button" type="submit" value="Blab it!"></input>
     </form>
   </div>
 </div>
 <br/>
-<div>
-  <div>
-    <div>
-      <img src="images/potato.png">
-    </div>
-    <div>
-      <div>someone@somewhere.com</div>
-      <div>saying something stupid</div>
-    </div>
-  </div>
+<div id="blabs-container" class="blabber-bg">
 </div>

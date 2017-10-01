@@ -1,5 +1,5 @@
 {
-  "name": "blabber-html",
+  "name": "blabber-css",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -30,7 +30,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/guyso/blabber-html.git"
+    "url": "git://github.com/guyso/blabber-css.git"
   },
   "author": "guyso",
   "license": ""
