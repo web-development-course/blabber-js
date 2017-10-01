@@ -36,8 +36,8 @@ module.exports.routes = {
     view: 'homepage'
   },
 
-  '/wall': {
-    view: 'wall'
+  '/blabs': {
+    view: 'blabs'
   }
 
   /***************************************************************************
