@@ -36,7 +36,7 @@ $(document).ready(function () {
   $('#create-blab').submit(function (e) {
     e.preventDefault();
     var data = {
-      id: `blab_${Math.floor(Math.random() * 1000000)}`,
+      id: 'blab_' + Math.floor(Math.random() * 1000000),
       email: $(this.email).val(),
       content: $(this.content).val(),
       upvotes: 1,
